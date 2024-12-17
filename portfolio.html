@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Koil Creattion - Galery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Premium Bootstrap 5 Landing Page Template" />
+    <meta name="keywords" content="bootstrap 5, premium, marketing, multipurpose" />
+    <meta name="author" content="Shreethemes" />
+    <meta name="website" content="https://shreethemes.in" />
+    <meta name="email" content="support@shreethemes.in" />
+    <meta name="version" content="1.0.0" />
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <!-- BOOTSTRAP -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <!-- ICON -->
+    <link href="css/materialdesignicons.min.css" rel="stylesheet">
+    <link href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" rel="stylesheet">
+    <!-- SLIDER -->
+    <link rel="stylesheet" href="css/tiny-slider.css" type="text/css">
+    <link rel="stylesheet" href="css/tobii.min.css">
+    <!-- Custom Css -->
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    
+</head>
+
+<body>
+    <!-- <div id="preloader">
+        <div id="status">
+            <div class="spinner">
+                <div class="cube1"></div>
+                <div class="cube2"></div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Navbar STart -->
+    <header id="topnav" class="defaultscroll sticky">
+        <div class="container">
+            <!-- Logo container-->
+            <a class="logo" href="index.html">
+                <img src="prj_img/logo.png" class="logo-light-mode" height="60" alt="">
+                <img src="prj_img/logo.png" class="logo-dark-mode" height="60" alt="">
+            </a>
+            <!-- End Logo container-->
+            <div class="menu-extras">
+                <div class="menu-item">
+                    <!-- Mobile menu toggle-->
+                    <a class="navbar-toggle" id="isToggle" onclick="toggleMenu()">
+                        <div class="lines">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </a>
+                    <!-- End mobile menu toggle-->
+                </div>
+            </div>
+
+           
+
+            <div id="navigation">
+                <!-- Navigation Menu-->
+                <ul class="navigation-menu nav-right">
+                    <li>
+                        <a href="index.html" class="sub-menu-item">Home</a>
+                    </li>
+                    <li><a href="portfolio.html" class="sub-menu-item">Portfolio</a></li>
+                    <li><a href="about.html" class="sub-menu-item">About Us</a></li>
+                    <li><a href="contact.html" class="sub-menu-item">Contact Us</a></li>
+                </ul>
+                <!--end navigation menu-->
+            </div>
+            <!--end navigation-->
+        </div>
+        <!--end container-->
+    </header>
+    <!--end header-->
+    <!-- Navbar End -->
+
+    <!-- Start Home -->
+    <section class="bg-default page-next-level" style="background: url(prj_img/cover.png) center no-repeat;">
+        <div class="home-center">
+            <div class="home-desc-center">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12">
+                            <div class="text-center">
+                                <h3 class="title-pager mb-0" style="color: aliceblue;"> Portfolio </h3>
+                            </div>
+                        </div>
+                        <!--end col-->
+
+                    </div>
+                    <!--end row-->
+                </div>
+                <!--end container-->
+            </div>
+        </div>
+    </section>
+    <!--end section-->
+    <!-- End Home -->
+
+    <!-- Start Work -->
+    <section class="section" id="portfolio">
+        <div class="container">
+
+            <div class="row justify-content-center">
+                <div class="col-12 my-4 filters-group-wrap text-center">
+                    <div class="filters-group">
+                        <ul class="container-filter mb-0 categories-filter list-unstyled filter-options h6">
+                            <li class="filter-list list-inline-item categories fw-normal position-relative active"
+                                data-group="all">Our Work</li>
+                        </ul>
+                    </div>
+                </div>
+                <!--end col-->
+            </div>
+            <!--end row-->
+
+            <div id="grid" class="row g-3 row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1">
+                <div class="col picture-item" data-groups='["accounting"]'>
+                    <div class="position-relative portfolio-standard overflow-hidden rounded">
+                        <div class="position-relative port-image">
+                            <img src="prj_img/01.png" class="img-fluid shadow" alt="work-image">
+                            <div class="overlay-work"></div>
+                            <div class="icon text-center">
+                                <a href="prj_img/01.png"
+                                    class="btn btn-icon btn-pills btn-lg lightbox text-primary bg-white border-white"><i
+                                        class="mdi mdi-arrow-expand-all"></i></a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <!--end col-->
+
+                <div class="col picture-item" data-groups='["accounting"]'>
+                    <div class="position-relative portfolio-standard overflow-hidden rounded">
+                        <div class="position-relative port-image">
+                            <div class="p-0 overflow-hidden">
+                                <div class="overlay-work"></div>
+                                <img src="prj_img/02.png" class="img-fluid shadow" alt="work-image">
+                                <div class="icon text-center">
+                                    <a href="prj_img/02.png"
+                                        class="btn btn-icon btn-pills btn-lg lightbox text-primary bg-white border-white"><i
+                                            class="mdi mdi-arrow-expand-all"></i></a>
+                                </div>
+                            </div>
+
+                        </div>
+                        
+                    </div>
+                </div>
+                <!--end col-->
+
+                <div class="col picture-item" data-groups='["finance"]'>
+                    <div class="position-relative portfolio-standard overflow-hidden rounded">
+                        <div class="position-relative port-image">
+                            <div class="p-0 overflow-hidden">
+                                <div class="overlay-work"></div>
+                                <img src="prj_img/03.png" class="img-fluid shadow" alt="work-image">
+                                <div class="icon text-center">
+                                    <a href="prj_img/03.png"
+                                        class="btn btn-icon btn-pills btn-lg lightbox text-primary bg-white border-white"><i
+                                            class="mdi mdi-arrow-expand-all"></i></a>
+                                </div>
+                            </div>
+
+                        </div>
+                        
+                    </div>
+                </div>
+                <!--end col-->
+
+                <div class="col picture-item" data-groups='["research"]'>
+                    <div class="position-relative portfolio-standard overflow-hidden rounded">
+                        <div class="position-relative port-image">
+                            <div class="p-0 overflow-hidden">
+                                <div class="overlay-work"></div>
+                                <img src="prj_img/04.png" class="img-fluid shadow" alt="work-image">
+                                <div class="icon text-center">
+                                    <a href="prj_img/04.png"
+                                        class="btn btn-icon btn-pills btn-lg lightbox text-primary bg-white border-white"><i
+                                            class="mdi mdi-arrow-expand-all"></i></a>
+                                </div>
+                            </div>
+
+                        </div>
+                        
+                    </div>
+                </div>
+                <!--end col-->
+
+                <div class="col picture-item" data-groups='["finance"]'>
+                    <div class="position-relative portfolio-standard overflow-hidden rounded">
+                        <div class="position-relative port-image">
+                            <div class="p-0 overflow-hidden">
+                                <div class="overlay-work"></div>
+                                <img src="prj_img/05.png" class="img-fluid shadow" alt="work-image">
+                                <div class="icon text-center">
+                                    <a href="prj_img/05.png"
+                                        class="btn btn-icon btn-pills btn-lg lightbox text-primary bg-white border-white"><i
+                                            class="mdi mdi-arrow-expand-all"></i></a>
+                                </div>
+                            </div>
+
+                        </div>
+                        
+                    </div>
+                </div>
+                <!--end col-->
+
+                <div class="col picture-item" data-groups='["research"]'>
+                    <div class="position-relative portfolio-standard overflow-hidden rounded">
+                        <div class="position-relative port-image">
+                            <div class="p-0 overflow-hidden">
+                                <div class="overlay-work"></div>
+                                <img src="prj_img/_01.png" class="img-fluid shadow" alt="work-image">
+                                <div class="icon text-center">
+                                    <a href="prj_img/_01.png"
+                                        class="btn btn-icon btn-pills btn-lg lightbox text-primary bg-white border-white"><i
+                                            class="mdi mdi-arrow-expand-all"></i></a>
+                                </div>
+                            </div>
+
+                        </div>
+                        
+                    </div>
+                </div>
+                <!--end col-->
+
+            </div>
+            <!-- end row -->
+            <!-- PAGINATION START -->
+            <!-- <div class="row">
+                <div class="col-12 mt-4 pt-2">
+                    <ul class="pagination justify-content-center mb-0">
+                        <li class="page-item">
+                            <a class="page-link" href="#" aria-label="Previous">
+                                <span aria-hidden="true"><i class="mdi mdi-chevron-left mdi-18px"></i></span>
+                            </a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link active" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item">
+                            <a class="page-link" href="#" aria-label="Next">
+                                <span aria-hidden="true"><i class="mdi mdi-chevron-right mdi-18px"></i></span>
+                            </a>
+                        </li>
+                    </ul>
+                    
+                </div>
+               
+            </div> -->
+            <!-- end row -->
+            <!-- PAGINATION END -->
+        </div>
+        <!--end container-->
+    </section>
+    <!--end section-->
+    <!-- End work -->
+
+    <!-- Partner Start -->
+    <!-- <section class="section-two bg-light">
+        <div class="page-triangle"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="tiny-five-item">
+                        <div class="tiny-slide">
+                            <img src="images/testi/01.png" class="img-fluid mx-auto d-block" alt="clients">
+                        </div>
+                        <div class="tiny-slide">
+                            <img src="images/testi/02.png" class="img-fluid mx-auto d-block" alt="clients">
+                        </div>
+                        <div class="tiny-slide">
+                            <img src="images/testi/02.png" class="img-fluid mx-auto d-block" alt="clients">
+                        </div>
+                        <div class="tiny-slide">
+                            <img src="images/testi/03.png" class="img-fluid mx-auto d-block" alt="clients">
+                        </div>
+                        <div class="tiny-slide">
+                            <img src="images/testi/04.png" class="img-fluid mx-auto d-block" alt="clients">
+                        </div>
+                        <div class="tiny-slide">
+                            <img src="images/testi/05.png" class="img-fluid mx-auto d-block" alt="clients">
+                        </div>
+                        <div class="tiny-slide">
+                            <img src="images/testi/06.png" class="img-fluid mx-auto d-block" alt="clients">
+                        </div>
+                        <div class="tiny-slide">
+                            <img src="images/testi/07.png" class="img-fluid mx-auto d-block" alt="clients">
+                        </div>
+                        <div class="tiny-slide">
+                            <img src="images/testi/08.png" class="img-fluid mx-auto d-block" alt="clients">
+                        </div>
+                        <div class="tiny-slide">
+                            <img src="images/testi/09.png" class="img-fluid mx-auto d-block" alt="clients">
+                        </div>
+                        <div class="tiny-slide">
+                            <img src="images/testi/10.png" class="img-fluid mx-auto d-block" alt="clients">
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+            
+        </div>
+       
+    </section> -->
+    <!--end section-->
+    <!-- Partner End -->
+
+  
+
+    <footer class="footer footer-bar bg-dark border-top">
+        <div class="container text-center">
+            <div class="row align-items-center">
+                <div class="col-sm-6">
+                    <div class="text-sm-start">
+                        <p class="mb-0">© <script>
+                                document.write(new Date().getFullYear())
+                            </script> Koil Creation. Design with <i class="mdi mdi-heart text-danger"></i> by <a
+                                href="#" target="_blank" class="text-reset">Freebyz Technologies</a>.</p>
+                    </div>
+                </div>
+                <!-- <div class="col-sm-6 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                    <ul class="list-unstyled text-sm-end mb-0">
+                        <li class="list-inline-item"><a href="javascript:void(0)"><img
+                                    src="images/footer/american-ex.png" class="avatar avatar-ex-sm"
+                                    title="American Express" alt=""></a></li>
+                        <li class="list-inline-item"><a href="javascript:void(0)"><img src="images/footer/discover.png"
+                                    class="avatar avatar-ex-sm" title="Discover" alt=""></a></li>
+                        <li class="list-inline-item"><a href="javascript:void(0)"><img
+                                    src="images/footer/master-card.png" class="avatar avatar-ex-sm" title="Master Card"
+                                    alt=""></a></li>
+                        <li class="list-inline-item"><a href="javascript:void(0)"><img src="images/footer/paypal.png"
+                                    class="avatar avatar-ex-sm" title="Paypal" alt=""></a></li>
+                        <li class="list-inline-item"><a href="javascript:void(0)"><img src="images/footer/visa.png"
+                                    class="avatar avatar-ex-sm" title="Visa" alt=""></a></li>
+                    </ul>
+                </div> -->
+                <!--end col-->
+
+
+            </div>
+        </div>
+        <!--end container-->
+    </footer>
+    <!--end footer-->
+    <!-- Footer End -->
+
+
+    <!-- Back to top -->
+    <a href="#" class="back-to-top rounded-pill text-center" id="back-to-top">
+        <i class="mdi mdi-chevron-up d-block"> </i>
+    </a>
+    <!-- Back to top -->
+
+    <!-- javascript -->
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- Portfolio -->
+    <script src="js/shuffle.min.js"></script>
+    <script src="js/tobii.min.js"></script>
+    <!-- Slider -->
+    <script src="js/tiny-slider.js"></script>
+    <script src="js/tiny-slider-init.js"></script>
+    
+    <script src="js/feather.min.js"></script>
+    <!-- Main Js -->
+    <script src="js/plugins.init.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
